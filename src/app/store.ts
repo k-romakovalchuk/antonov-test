@@ -1,4 +1,4 @@
-import { configureStore, ThunkAction, Action, Middleware, createSlice } from '@reduxjs/toolkit';
+import { configureStore, ThunkAction, Action, } from '@reduxjs/toolkit';
 import notesSlice from '../features/notesSlice';
 
 export const store = configureStore({

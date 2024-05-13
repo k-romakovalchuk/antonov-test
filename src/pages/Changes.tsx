@@ -25,7 +25,8 @@ const useStyles: any = makeStyles((theme: Theme) =>({
 
 const Changes = () => {
   const classes = useStyles();
-  const id = useLocation().pathname.replace('/', '')
+  const id = useLocation().pathname.replace('create', '').replace('change', '').replace(/\//g, '')
+  console.log(id)
   const { notes, title, body,hasError } = useAppSelector(state => state.notes);
   const dispatch = useAppDispatch();
 
