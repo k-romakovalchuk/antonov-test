@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/antonov-test/static/css/main.e6c13ad2.css",
+    "main.js": "/antonov-test/static/js/main.60bc604c.js",
+    "index.html": "/antonov-test/index.html",
+    "main.e6c13ad2.css.map": "/antonov-test/static/css/main.e6c13ad2.css.map",
+    "main.60bc604c.js.map": "/antonov-test/static/js/main.60bc604c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.60bc604c.js"
+  ]
+}
