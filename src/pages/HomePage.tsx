@@ -67,7 +67,7 @@ const NotesList = () => {
     ) :  (
       <Grid container spacing={3}>
         {notes.map((note: Note) => (
-          <Grid item xs={1} sm={12} md={12} key={note.id}>
+          <Grid item xs={12} sm={12} md={12} key={note.id}>
             <div className={classes.noteCard}>
               <Typography variant="h6">{note.title}</Typography>
               <Typography variant="body2" color="textSecondary">{note.body}</Typography>

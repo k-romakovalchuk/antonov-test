@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://k-romakovalchuk.github.io/antonov-test",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -18,6 +19,7 @@
     "@types/react-dom": "^18.3.0",
     "axios": "^1.6.8",
     "formik": "^2.4.6",
+    "gh-pages": "^6.1.1",
     "install": "^0.13.0",
     "npm": "^10.7.0",
     "react": "^18.3.1",
@@ -33,7 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "react-scripts deploy"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
